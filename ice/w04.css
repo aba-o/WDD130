@@ -1,0 +1,41 @@
+body{
+    background-color: palevioletred;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+
+nav a {
+    line-height: 3em;
+    text-align: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: #ffff;
+}
+nav a:hover{
+    color: #000;
+}
+
+#quote{
+    font-size: 2.5em;
+    color: #ebdede;
+}
+
+#article-of-faith{
+    text-align: left;
+    padding-inline-start: 40px;
+    line-height: 2em;
+    font-weight: bold;
+}
