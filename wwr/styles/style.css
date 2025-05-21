@@ -120,7 +120,7 @@ nav a:hover{
 }
 .msg h2{
     color: antiquewhite;
-    font-family: "Fredericka the Great", "Firacode", sans-serif;
+    font-family: Helvetica, "Firacode", sans-serif;
 }
 .msg p{
     color: #f0f0f0;
@@ -130,7 +130,7 @@ nav a:hover{
 
 .home-title{
     color: #004e89;
-    font-family: serif, sans-serif;
+    font-family: "Fredericka the Great",serif;
     font-size: 2em;
     margin-top: 10px;
 }
