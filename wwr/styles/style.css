@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Fredericka+the+Great&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
 body{
     background-color: #fff;
+    font-family: "Elsie Swash Caps", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 main{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 0;
 }
 
 h4{
@@ -17,6 +30,8 @@ header{
 footer{
     background-color: #4a4a4a;
     color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -36,6 +51,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding: 15px;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -45,6 +64,7 @@ nav a{
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -65,6 +85,10 @@ nav a:hover{
     width: 100%;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
 .button-box{
     text-align: center;
 }
@@ -73,6 +97,10 @@ nav a:hover{
     background-color: #ff6f00;
     color: #ffffff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -80,18 +108,31 @@ nav a:hover{
     color: #004e89;
 }
 
+.card-img{
+    border: 10px solid #ff6f00;
+}
+
 .msg{
     background-color: #2e8b57;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 .msg h2{
     color: antiquewhite;
+    font-family: "Fredericka the Great", "Firacode", sans-serif;
 }
 .msg p{
     color: #f0f0f0;
+    font-size: .8em;
+    padding: 15px;
 }
 
 .home-title{
     color: #004e89;
+    font-family: serif, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo{
@@ -99,4 +140,15 @@ nav a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.mountains{
+    display: block;
+    margin-left: 0;
+    margin-top: 150px;
 }
