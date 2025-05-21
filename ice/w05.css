@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    max-width: 1600px;
+    background-color: gray;
+}
+
+#content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#hero{
+    width: 100%;
+    height: 500px;
+    max-width: 1600px;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;    
+    gap: 200px; 
+    margin: 50px 20px; 
+}
+
+.circles img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 15px solid rgb(74, 71, 71);
+}
