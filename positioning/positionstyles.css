@@ -156,8 +156,8 @@
 /* Activity 6 styles */ 
 .content6 {
   display: grid;
-  grid-template-columns: repeat(6, 175px);
-  grid-template-rows: repeat(6, 175px);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   height: 100%;
 }
 .red6 {
