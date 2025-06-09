@@ -1,29 +1,29 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Fredericka+the+Great&family=Fredoka:wght@300..700&display=swap');
 
 :root {
 /* change the values below to your colors from your palette */
---primary-color: #396E94   ;
---secondary-color: #E7C24F ;
---accent1-color: #A42212;
---accent2-color: white;
+--primary-color: #223570   ;
+--secondary-color: #F9FAFB ;
+--accent1-color: #00AEEF;
+--accent2-color: #F4B400;
 
 /* change the values below to your chosen font(s) */
---heading-font: "IM Fell French Canon SC";
---paragraph-font: Lato, Helvetica, sans-serif;
+--heading-font: "Fredericka the Great";
+--paragraph-font: "Fredoka", Helvetica, sans-serif;
 
 /* these colors below should be chosen from among your palette colors above */
---headline-color-on-white: #396E94;  /* headlines on a white background */ 
---headline-color-on-color: white; /* headlines on a colored background */ 
---paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+--headline-color-on-white: #223570;  /* headlines on a white background */ 
+--headline-color-on-color: #F9FAFB; /* headlines on a colored background */ 
+--paragraph-color-on-white: #223570; /* paragraph text on a white background */ 
 --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
---paragraph-background-color: #396E94  ;
---nav-link-color: #396E94;
---nav-background-color: #D4AC0D;
---nav-hover-link-color: white;
---nav-hover-background-color: #396E94;
+--paragraph-background-color: #223570  ;
+--nav-link-color: #223570;
+--nav-background-color: #F4B400;
+--nav-hover-link-color: #00AEEF;
+--nav-hover-background-color: #223570;
 }
 
 
