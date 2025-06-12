@@ -1,0 +1,29 @@
+#content{
+    margin: 0 auto;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    padding: 35px;
+    text-align: center;
+    width: 100px;
+    text-decoration: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+}
+
+footer img{
+    display: block;
+}

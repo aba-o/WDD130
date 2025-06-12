@@ -6,9 +6,9 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #69212D  ;
-  --secondary-color: #2c2f1f;
-  --accent1-color: #e76b75;
+  --primary-color: #004e89  ;
+  --secondary-color: #4a4a4a;
+  --accent1-color: #00aaff;
   --accent2-color: #f8e9e3;
 
   /* change the values below to your chosen font(s) */
@@ -16,15 +16,15 @@ Fonts are separated by a & */
   --paragraph-font: Playwrite Deutschland Grundschrift, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2c2f1f;  /* headlines on a white background */ 
-  --headline-color-on-color: #69212D; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #69212D; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #2c2f1f; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #f8e9e3;
-  --nav-link-color: #69212D;
-  --nav-background-color: #e76b75;
-  --nav-hover-link-color: #2c2f1f;
-  --nav-hover-background-color: #f8e9e3;
+  --headline-color-on-white: #4a4a4a;  /* headlines on a white background */ 
+  --headline-color-on-color: #f8e9e3; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #004e89; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #f8e9e3; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #004e89;
+  --nav-link-color: #4a4a4a;
+  --nav-background-color: #00aaff;
+  --nav-hover-link-color: #00aaff;
+  --nav-hover-background-color: #4a4a4a;
 }
 
 
