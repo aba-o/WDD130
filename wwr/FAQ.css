@@ -16,6 +16,28 @@ footer{
     align-items: center;
 }
 
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #cddc39;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding: 15px;
+    border-radius: 50px;
+}
+
 body{
     background-color: #fff;
     font-family: "Elsie Swash Caps", Helvetica, sans-serif;
@@ -37,34 +59,53 @@ nav{
     justify-content: space-around;
 }
 
+nav a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color: #00aaff;
+    color: #ffffff;
+}
+
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
-    gap: 30px;
+    gap: 60px;
     padding: 30px;
 }
 
-.words{
-    grid-column: 1/2;
-    grid-row: 1/2;
+h2{
+    font-family: "Fredericka the Great", serif;
+    font-size: 2.5em;
+    color: #2e8b57;
+    text-align: center;
 }
 
-.imgR{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.imgR1{
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-.imgR{
-    grid-column: 2/3;
-    grid-row: 1/2;
+main p{
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
 }
 
 main img{
-    width: 700px;
+    width: 690px;
+    height: 490px;
+    border: 10px solid #00aaff;
+    transition: transform .5s;
+}
+
+main img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+h1 {
+    text-align: center;
+    font-family: "Fredericka the Great", serif;
 }
