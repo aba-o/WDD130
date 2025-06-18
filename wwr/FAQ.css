@@ -22,7 +22,7 @@ footer a{
 }
 
 footer a:hover{
-    color: #cddc39;
+    color: #00aaff;
 }
 
 footer p{
@@ -39,7 +39,7 @@ footer .social img{
 }
 
 body{
-    background-color: #fff;
+    background-color: #f8e9e3;
     font-family: "Elsie Swash Caps", Helvetica, sans-serif;
     margin: 0;
 }
@@ -52,6 +52,7 @@ body{
 
 .logo{
     width: 80px;
+    border-radius: 50px;
 }
 
 nav{
@@ -61,14 +62,14 @@ nav{
 
 nav a{
     text-align: center;
-    color: #ffffff;
+    color: #f8e9e3;
     text-decoration: none;
     padding: 35px;
 }
 
 nav a:hover{
     background-color: #00aaff;
-    color: #ffffff;
+    color: #f8e9e3;
 }
 
 .home-grid{
@@ -82,7 +83,7 @@ nav a:hover{
 h2{
     font-family: "Fredericka the Great", serif;
     font-size: 2.5em;
-    color: #2e8b57;
+    color: #004e89;
     text-align: center;
 }
 
@@ -90,6 +91,7 @@ main p{
     font-size: 20px;
     line-height: 1.6;
     text-align: center;
+    color: #4a4a4a;
 }
 
 main img{
@@ -108,4 +110,5 @@ main img:hover{
 h1 {
     text-align: center;
     font-family: "Fredericka the Great", serif;
+    color: #4a4a4a;
 }
