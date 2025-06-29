@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting Vacations | Dry Oar Boating | Contact Us</title>
-    <link rel="stylesheet" href="FAQ.css">
+    <link rel="stylesheet" href="projects.css">
+    <title>Get Involved</title>
     <style>
     body {
     text-align: center;
@@ -70,17 +70,18 @@
 }
     </style>
 </head>
+
 <body>
-    <div id="content">
-        <header id="head">
-            <a class="logo_link" href="index.html">
-                <img class="logo" src="images/WhiteWater.png" alt="Dry Oar Logo">
+        <div id="content">
+        <header>
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/dual_foundation-logo.png" alt="Duala Foundation Logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="FAQ.html">FAQ</a>
-                <a href="site-plan-rafting.html">Site Plan</a>
-                <a href="contactus.html">Contact Us</a>
+                <a href="#">About Us</a>
+                <a href="projects.html">Projects</a>
+                <a href="#" class="contact">Get Involved</a>
             </nav>
         </header>
         <main id="form">
@@ -95,7 +96,7 @@
                     <input type="text" id="mail" name="user_email">
                 </p>
                 <p>
-                    <label for="msg">Message</label>
+                    <label for="msg">Commitment</label>
                     <textarea name="user_message" id="msg"></textarea>
                 </p>
                 <p class="button">
@@ -104,14 +105,13 @@
             </form>
         </main>
         <footer>
-            <a class="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="Dry Oar Logo">
+            <a id="logo-link" href="index.html">
+                <img class="logo" src="images/dual_foundation-logo.png" alt="Duala Foundation Logo">
             </a>
-            <p>Dry Oar &copy; 2025 - Aba Otchere. All rights reserved</p>
-            <p><a href="site-plan-rafting.html">Site Plan</a></p>
-            <p><a href="contactus.html">Contact Us</a></p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of service</a>
+            <p>Duala Foundation &copy; 2025. All rights reserved</p>
+            <p>Empowering communities</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p>Follow us on:</p>
             <div class="social">
                 <a href="https://facebook.com" target="_blank">
                     <img src="https://byui-wdd.github.io/wdd130/rafting_images/facebook.png" alt="facebook icon">
@@ -120,20 +120,9 @@
                     <img src="https://byui-wdd.github.io/wdd130/rafting_images/twitter.png" alt="twitter icon">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                    <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon"><br>
+                    <img src="https://byui-wdd.github.io/wdd130/rafting_images/instagram.png" alt="instagram icon">
                 </a>
-            </div>
+            </div> 
         </footer>
-    </div>
-    <script>
-    const feedbackElement = document.getElementById('feedback');
-    const formElement = document.forms[0];
-    formElement.addEventListener('submit', function(e) {
-        e.preventDefault();
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-        feedbackElement.style.display = "block";
-        document.body.classList.toggle('moveDown');
-    });
-    </script>
 </body>
 </html>
