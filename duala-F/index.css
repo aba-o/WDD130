@@ -2,6 +2,7 @@
 
 #content{
     margin: 0 auto;
+    max-width: 1600px;
 }
 
 .contact{
@@ -15,8 +16,8 @@
 }
 
 .contact:hover{
-    background-color: #00AEEF ;
-    color: #223570;
+    background-color: #2F70A1 ;
+    color: #E5E7EB;
 }
 
 header{
@@ -124,6 +125,7 @@ nav a:hover{
     text-align: center;
     color: black;
     font-size: 60px;
+    font-weight: bolder;
 }
 
 #hero-msg h1{
@@ -153,12 +155,11 @@ main{
 }
 
 .txt{
-    font-size: 35px;
+    font-size: 30px;
     padding: 50px;
     text-align: center;
-    color: #223570;
     grid-column: 2/7;
-    background-color: #00AEEF;
+    background-color: #2F70A1;
     line-height: 1.5em;
     margin: 20px;
     border-radius: 25px;

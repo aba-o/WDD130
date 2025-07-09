@@ -2,6 +2,7 @@
 
 #content{
     margin: 0 auto;
+    max-width: 1600px;
 }
 
 .contact{
@@ -96,3 +97,106 @@ nav a:hover{
     background-color: #F4B400;
     color: #223570;
 }
+
+/* grid section(main) */
+#hero img{
+    width: 100%;
+}
+
+.founders{
+    display: grid;
+    grid-template-columns: repeat(10, 160px);
+    grid-template-rows: 160px 160px 160px 1fr;
+}
+
+.headshot{
+    width: 100%;
+    height: 280px;
+    border: 10px #223570 solid;
+    border-radius: 50px;
+}
+
+.awo{
+    grid-column: 2/4;
+    padding: 20px;
+}
+.kwame{
+    grid-column: 5/7;
+    padding: 20px;
+}
+.esi{
+    grid-column: 8/10;
+    padding: 20px;
+}
+
+#txt{
+    grid-row: 4/5;
+    grid-column: 2/10;
+    margin: 0 auto;  
+    box-sizing: border-box;
+}
+
+.about-us{
+    padding: 3rem;
+    max-width: 1600px;
+    font-size: 2em;
+    background-color: #2F70A1;
+    line-height: 40px;
+}
+
+.founders h3{
+    font-family: "Fredericka the Great", serif;
+    text-align: center;
+}
+
+
+
+
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 280px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50px;
+    perspective: 1000px;
+
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.0s;
+    transform-style: preserve-3d;
+    border-radius: 50px;
+    }
+
+.flip-box:hover .flip-box-inner {
+transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #555;
+    color: black;
+    border-radius: 50px;
+}
+
+.flip-box-back {
+    border-radius: 50px;
+    background-color: #555;
+    color: black;
+    padding: 10px;
+    transform: rotateY(180deg);
+}
+
+

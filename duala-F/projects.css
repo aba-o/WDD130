@@ -51,6 +51,7 @@ h1 {
 
 #content{
     margin: 0 auto;
+    max-width: 1600px;
 }
 
 .contact{
@@ -64,7 +65,7 @@ h1 {
 }
 
 .contact:hover{
-    background-color: #00AEEF ;
+    background-color: #2F70A1 ;
     color: #223570;
 }
 
